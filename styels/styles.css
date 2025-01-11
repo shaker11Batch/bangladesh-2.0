@@ -29,6 +29,19 @@ body {
     font-weight: 600;
 }
 
+.primary-container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-satellite{
+    padding: 56px 48px;
+    background-color: #F1F1F3;
+    border-radius: 10px;
+    margin: 24px 0px;
+}
 
 
 /* Banner Styles  */
@@ -115,25 +128,20 @@ body {
 
 
 /* satellite styles  */
+.satellite-container-reverse {
+    flex-direction: row-reverse;
+    
+}
 
-
-.satellite-container{
-    display: flex;
-    gap: 32px;
-    justify-content: center;
-    align-items: center;
-    padding: 56px 48px;
-    background-color: #F1F1F3;
+.satellite-img {
     border-radius: 10px;
+}
 
-}
-.satellite-img{
-   border-radius: 10px;
-}
-.time-container{
+.time-container {
     display: flex;
     gap: 12px;
 }
-.satellite-btn{
+
+.satellite-btn {
     background-color: #006A50;
 }
