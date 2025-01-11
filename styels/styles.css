@@ -7,7 +7,7 @@ body {
 
 /* shared Card */
 
-.primary-card{
+.primary-card {
     height: 325px;
     width: 410px;
     padding: 32px;
@@ -15,11 +15,15 @@ body {
     margin: 32px 0px;
 }
 
-.primary-btn{
+.primary-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.primary-btn {
     width: 122px;
     height: 41px;
     color: #FFFFFF;
-    background-color: #5490F5;
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -45,7 +49,6 @@ body {
 
 .banner-heading {
     font-size: 24px;
-    /* font-weight: medium; */
 }
 
 .banner-title {
@@ -68,6 +71,9 @@ body {
 
 
 /* vision styles  */
+.vision-container {
+    margin: 80px 0px;
+}
 
 .card-container {
     display: flex;
@@ -78,9 +84,11 @@ body {
 .card {
     background-color: #b0cbf1;
 }
+
 .card-2 {
     background-color: #C6E4D6;
 }
+
 .card-3 {
     background-color: #F7EBCF;
 }
@@ -91,17 +99,41 @@ body {
     margin: 24px 0px;
 }
 
-.vision-title {
-    font-weight: bold;
-    font-size: 40px;
+
+
+.card-btn {
+    background-color: #5490F5;
 }
 
-.card-btn- {
-  background-color: #5490F5;
-}
 .card-btn-2 {
-  background-color: #09A15C;
+    background-color: #09A15C;
 }
+
 .card-btn-3 {
-  background-color: #FFC239;
+    background-color: #FFC239;
+}
+
+
+/* satellite styles  */
+
+
+.satellite-container{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 48px;
+    background-color: #F1F1F3;
+    border-radius: 10px;
+
+}
+.satellite-img{
+   border-radius: 10px;
+}
+.time-container{
+    display: flex;
+    gap: 12px;
+}
+.satellite-btn{
+    background-color: #006A50;
 }
