@@ -57,6 +57,8 @@ body{
     justify-content: center;
 }
 
+
+/* nav style  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -73,9 +75,6 @@ nav{
     font-weight: 700;
     font-size: 18px;
 }
-
-/* nav style  */
-
 
 
 /* Banner Styles  */
@@ -115,6 +114,35 @@ nav{
     border: none;
 
 }
+
+
+/* <!-- Pillars of "Bangladesh 2.0"  --> */
+.pillars-container{
+    margin: 80px 0px;
+}
+.general-card-container{
+    display: flex;
+    gap: 24px;
+}
+
+.general-card{
+    height: 244px;
+    width: 302px;
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 5px;
+}
+.general-title{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.general-description{
+    height: 72px;
+    width: 254px;
+    font-size: 16px;
+}
+
 
 
 /* vision styles  */
