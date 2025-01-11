@@ -2,6 +2,7 @@ body {
     margin: 0px 160px;
     width: 1280px;
     margin: 0 auto;
+    background-color: #F1F1F3;
 }
 
 
@@ -38,11 +39,24 @@ body {
 
 .primary-satellite{
     padding: 56px 48px;
-    background-color: #F1F1F3;
+    background-color: #FFFFFF;
     border-radius: 10px;
     margin: 24px 0px;
 }
 
+.donate{
+    height:128px;
+    width:243px ;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Banner Styles  */
 .banner-section {
@@ -144,4 +158,54 @@ body {
 
 .satellite-btn {
     background-color: #006A50;
+}
+
+/* Donations style  */
+.donation-container{
+    margin: 80px 0px;
+}
+
+.donation-content{
+    text-align: center;
+}
+.donate-description{
+    height: 48px;
+    width: 1104px;
+    margin: 0 auto;
+}
+.donate-amount-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;   
+}
+.amount-1:hover{
+background-color: rgb(194, 229, 229);
+}
+.amount-2:hover{
+background-color: rgb(204, 119, 119);
+color: #FFFFFF;
+}
+.amount-3:hover{
+background-color: rgb(40, 52, 52);
+color: #FFFFFF;
+}
+.amount-4:hover{
+background-color: rgb(190, 154, 249);
+color: #F1F1F3;
+}
+.donation-input{
+    height: 64px;
+    width: 1032px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.donate-btn{
+    background-color: #006A50;
+    text-align: center;
+    display: block;
+    margin: 32px auto;
 }
