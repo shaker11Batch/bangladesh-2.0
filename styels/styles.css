@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #F1F1F3;
     margin: 0px 160px;
     width: 1280px;
@@ -59,17 +59,19 @@ body{
 
 
 /* nav style  */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 31px 0px;
 }
-.web-title{
+
+.web-title {
     font-size: 32px;
     font-weight: bold;
 }
-.singIn-btn{
+
+.singIn-btn {
     border: 1px solid #006A50;
     color: #006A50;
     font-weight: 700;
@@ -117,27 +119,29 @@ nav{
 
 
 /* <!-- Pillars of "Bangladesh 2.0"  --> */
-.pillars-container{
+.pillars-container {
     margin: 80px 0px;
 }
-.general-card-container{
+
+.general-card-container {
     display: flex;
     gap: 24px;
 }
 
-.general-card{
+.general-card {
     height: 244px;
     width: 302px;
     background-color: #FFFFFF;
     padding: 24px;
     border-radius: 5px;
 }
-.general-title{
+
+.general-title {
     margin-top: 24px;
     margin-bottom: 12px;
 }
 
-.general-description{
+.general-description {
     height: 72px;
     width: 254px;
     font-size: 16px;
@@ -188,6 +192,15 @@ nav{
     background-color: #FFC239;
 }
 
+
+.minister-sec {
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 10px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 15px;
+}
 
 /* satellite styles  */
 .satellite-container-reverse {
@@ -318,19 +331,22 @@ nav{
 
 
 /* Footer Style  */
-.footer-title{
+.footer-title {
     text-align: center;
     margin: 32px 0px;
 }
- hr{
+
+hr {
     width: 1122px;
- }
-.footer-link{
+}
+
+.footer-link {
     margin: 32px 0px;
     text-align: center;
-    
+
 }
-.footer-link > a >img{
+
+.footer-link>a>img {
     margin-left: 23px;
     height: 24px;
     width: 24px;
