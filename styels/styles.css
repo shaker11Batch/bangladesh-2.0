@@ -1,13 +1,9 @@
 body{
     background-color: #F1F1F3;
-}
-main {
     margin: 0px 160px;
     width: 1280px;
     margin: 0 auto;
-   
 }
-
 
 /* shared Card */
 
@@ -60,6 +56,27 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 31px 0px;
+}
+.web-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.singIn-btn{
+    border: 1px solid #006A50;
+    color: #006A50;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* nav style  */
+
+
 
 /* Banner Styles  */
 .banner-section {
