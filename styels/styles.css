@@ -1,8 +1,11 @@
-body {
+body{
+    background-color: #F1F1F3;
+}
+main {
     margin: 0px 160px;
     width: 1280px;
     margin: 0 auto;
-    background-color: #F1F1F3;
+   
 }
 
 
@@ -266,4 +269,24 @@ body {
 .promise {
     text-align: center;
     margin: 24px;
+}
+
+
+/* Footer Style  */
+.footer-title{
+    text-align: center;
+    margin: 32px 0px;
+}
+ hr{
+    width: 1122px;
+ }
+.footer-link{
+    margin: 32px 0px;
+    text-align: center;
+    
+}
+.footer-link > a >img{
+    margin-left: 23px;
+    height: 24px;
+    width: 24px;
 }
