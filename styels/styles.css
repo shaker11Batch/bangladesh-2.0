@@ -1,0 +1,40 @@
+body {
+    margin: 0px 160px;
+}
+
+/* Banner Styles  */
+.banner-section {
+    background-color: #C6E4D6;
+    margin-top: 20px;
+    height: 560px;
+    border-radius: 10px;
+    /* width: 1280px; */
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 117px 59px;
+}
+
+.banner-heading {
+    font-size: 24px;
+    /* font-weight: medium; */
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+    width: 622px;
+}
+.explore{
+    width: 270px;
+    height:56px;
+    background-color: #006A50;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    
+}
